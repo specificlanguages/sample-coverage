@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/languageUnderTest/languageUnderTest.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/build/build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/tests/tests.msd" folder="" />
+    </projectModules>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/sample-coverage.iml" filepath="$PROJECT_DIR$/.idea/sample-coverage.iml" />
+    </modules>
+  </component>
+</project>

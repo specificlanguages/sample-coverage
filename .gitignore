@@ -1,0 +1,11 @@
+source_gen/
+classes_gen/
+source_gen.caches/
+test_gen/
+
+/build/
+/build.xml
+/TEST-*.xml
+/.mps-caches/
+/.gradle/
+/.idea/
