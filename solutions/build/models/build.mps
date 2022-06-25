@@ -130,6 +130,9 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -253,6 +256,21 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="31dp8rTgye1" role="3bR31x">
+          <node concept="3LXTmp" id="31dp8rTgye2" role="3rtmxm">
+            <node concept="55IIr" id="31dp8rTgye3" role="3LXTmr">
+              <node concept="2Ry0Ak" id="31dp8rTgye4" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="31dp8rTgye5" role="2Ry0An">
+                  <property role="2Ry0Am" value="languageUnderTest" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="31dp8rTgye7" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1E1JtA" id="1$wY4Rj7d6M" role="3989C9">
@@ -298,6 +316,7 @@
         </node>
       </node>
     </node>
+    <node concept="22LTRH" id="31dp8rTgBhx" role="1hWBAP" />
     <node concept="19Et6q" id="1$wY4Rj7d7P" role="1hWBAP">
       <property role="TrG5h" value="tests" />
       <node concept="22LTRM" id="1$wY4Rj7d7R" role="22LTRK">
@@ -305,12 +324,6 @@
       </node>
       <node concept="3ATZRs" id="1$wY4Rj7d7T" role="1rHEoW">
         <ref role="3ATZRv" node="1$wY4Rj7d6G" resolve="languageUnderTest" />
-      </node>
-    </node>
-    <node concept="22LTRH" id="31dp8rTfQNH" role="1hWBAP">
-      <property role="TrG5h" value="xyz" />
-      <node concept="22LTRM" id="31dp8rTfQNJ" role="22LTRK">
-        <ref role="22LTRN" node="1$wY4Rj7d6M" resolve="tests" />
       </node>
     </node>
   </node>
